@@ -10,7 +10,7 @@ import os
 try:
 	import requests
 except ImportError:
-	os.system("pip install requests")
+
 
 try:
 	import concurrent.futures
@@ -24,7 +24,7 @@ import requests
 import random
 import platform
 import base64
-import subprocess
+
 from concurrent.futures import ThreadPoolExecutor
 import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
 try:
